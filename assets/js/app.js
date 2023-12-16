@@ -74,6 +74,7 @@ const renderPokemon = async (pokemon) => {
         pokemonImage.style.display = 'none';
         pokemonName.innerHTML = 'No encontrado :c';
         pokemonNumber.innerHTML = '';
+        myChart.destroy();
     }
 };
 form.addEventListener('submit', (event) => {
