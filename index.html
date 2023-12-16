@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/favicon-16x16.png">
+    
+    <title>Proyecto 3 - Pokedex</title>
+</head>
+<body>
+    <main>
+        <img src="#" alt="pokemon" class="pokemon__img">
+
+        <h1 class="pokemon__data">
+            <span class="pokemon__number"> </span> -
+
+            <span class="pokemon__name"> </span>
+        </h1>
+
+        <form class="form">
+            <input
+                type="search"
+                class="input__search"
+                placeholder="Nombre o Numero"
+                required/>
+        </form>
+
+        <div class="buttons">
+            <button class="button btn-prev">Prev &lt;</button>
+            <button class="button btn-next">Next &gt;</button>
+        </div>
+
+        <div class="wrapper">
+            <div class="poke_detail" id="poke_detail">
+            </div>
+            <div class="poke_stats">
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+
+        <img src="assets/img/pokedex.png" alt="pokedex" class="pokedex">
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
