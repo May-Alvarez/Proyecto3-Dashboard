@@ -10,6 +10,11 @@
 </head>
 <body>
     <main>
+
+        <header class="header">
+            <h1 class="header_titulo">Pokedex</h1>
+        </header>
+
         <img src="#" alt="pokemon" class="pokemon__img">
 
         <h1 class="pokemon__data">
@@ -31,15 +36,19 @@
             <button class="button btn-next">Next &gt;</button>
         </div>
 
-        <div class="wrapper">
-            <div class="poke_detail" id="poke_detail">
-            </div>
-            <div class="poke_stats">
-                <canvas id="myChart"></canvas>
-            </div>
+        <div class="canva">
+            <canvas id="myChart"></canvas>
         </div>
 
-        <img src="assets/img/pokedex.png" alt="pokedex" class="pokedex">
+        <img src="assets/img/tituloPokemon.png" alt="pokedex" class="titulo__pokedex">
+
+        <footer class="footer">
+            <div class="footer_derechos">
+                <p class="footer_texto">
+                    © 2023 Equipo 3. Todos los derechos reservados. Esta es una página de aterrizaje ficticia para fines académicos
+                </p>
+            </div>
+        </footer>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="assets/js/app.js"></script>
