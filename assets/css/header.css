@@ -1,0 +1,7 @@
+.header__titulo{
+    position: absolute;
+    bottom: 65%;
+    left: 73%;
+    transform: translate(-63%, 20%);
+    height: 15%;
+}

@@ -21,12 +21,13 @@ const fetchPokemon = async (pokemon) => {
 };
 
 function myRadar(data){
+    Chart.defaults.color = "#070707";
     myChart = new Chart(pokemonStatistic, {
         type: 'radar',
         data: {
         labels: ['hp', 'attack', 'defense', 'special-attack', 'special-defense', 'speed'],
         datasets: [{
-            
+            label: data.name.toUpperCase(),
             data: [
                 data.stats[0].base_stat, 
                 data.stats[1].base_stat, 
@@ -36,7 +37,7 @@ function myRadar(data){
                 data.stats[5].base_stat],
             borderWidth: 1,
             pointBackgroundColor: ['#FF0000', '#FFA500', '#008000', '#0000FF', '#EE82EE','#FFFF00'],
-            borderColor: ['#C2C2C2 '],
+            borderColor: ['#f7f7f7'],
             borderCapStyle: ['red'],
             fill: false
         }]

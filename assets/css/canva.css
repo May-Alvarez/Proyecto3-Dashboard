@@ -1,0 +1,12 @@
+.canva {
+    width: 35%;
+    position: absolute;
+    bottom: 18%;
+    left: 51%;
+    background-color: #d30a40;
+}
+
+
+.poke__stats {
+    width: 100%;
+}
