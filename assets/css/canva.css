@@ -10,3 +10,20 @@
 .poke__stats {
     width: 100%;
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .canva {
+        width: 30%;
+        bottom: 53%;
+        left: 57%;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .canva {
+        width: 25%;
+        bottom: 40%;
+        left: 42%;
+    }
+
+}

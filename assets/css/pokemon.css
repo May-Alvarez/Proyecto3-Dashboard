@@ -19,3 +19,31 @@
     color: var(--pokemon-gris-oscuro);
     text-transform: capitalize;
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .pokemon__img{
+        bottom: 73%;
+        left: 30%;
+        height: 9%;
+    }
+
+    .pokemon__data{
+        top: 30.5%;
+        right: 68%;
+        font-size: clamp(8px, 5vw, 22px);
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .pokemon__img{
+        bottom: 60%;
+        left: 24%;
+        height: 7%;
+    }
+
+    .pokemon__data{
+        top: 42.5%;
+        right: 70%;
+        font-size: clamp(8px, 5vw, 14px);
+    }
+}

@@ -6,4 +6,24 @@
 
 .footer_derechos{
     text-align: center;
+    font-size: medium;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .footer {
+        margin: 0 0 52% -1%;
+    }
+    .footer_derechos{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .footer {
+        margin: 0 0 36% 0%;
+    }
+    .footer_derechos{
+        font-size: 6px;
+        margin-left: -26%;
+    }
 }

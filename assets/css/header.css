@@ -5,3 +5,20 @@
     transform: translate(-63%, 20%);
     height: 15%;
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .header__titulo {
+        bottom: 80%;
+        left: 76%;
+        height: 9%;
+    }
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .header__titulo {
+        bottom: 65%;
+        left: 57%;
+        height: 8%
+    }
+
+}
