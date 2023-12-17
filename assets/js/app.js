@@ -27,7 +27,7 @@ function myRadar(data){
         data: {
         labels: ['hp', 'attack', 'defense', 'special-attack', 'special-defense', 'speed'],
         datasets: [{
-            label: data.name.toUpperCase(),
+            label: data.name.charAt(0).toUpperCase() + data.name.slice(1),
             data: [
                 data.stats[0].base_stat, 
                 data.stats[1].base_stat, 
@@ -47,12 +47,7 @@ function myRadar(data){
                 line: {
                     borderWidth: 3
                 }
-            },
-            scales: {
-                y: {
-                    beginAtZero: false
-                    }
-                }
+            }
         }
     });
 }

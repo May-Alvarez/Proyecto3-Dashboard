@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --background-azul: #6ab7f7;
+    --background-blanco: #fff;
+
+    --pokemon-gris-claro: #aaa;
+    --pokemon-gris-oscuro: #3a444d;
+
+    --input-gris-oscuro: #333;
+    --input-azul-oscuro: #3a444d;
+    --input-gris-claro: #888;
+
+    --canva-rojo: #d30a40;
+
+    --boton-negro: #070707;
+    --boton-gris-claro: #444;
+    --boton-gris-oscuro: #222;
+    --boton-blanco: #f7f7f7;
+
+    --font-weight-alto: 600;
+
+
+    --oxanium: 'oxanium', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:var(--oxanium);
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, var(--background-azul), var(--background-blanco));
+    min-width: 100vh;
+}
+
+main{
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}

@@ -8,14 +8,14 @@
 
 .pokemon__data{
     position: absolute;
-    font-weight: 600;
-    color: #aaa;
+    font-weight: var(--font-weight-alto);
+    color: var(--pokemon-gris-claro);
     top: 50.5%;
     right: 70%;
     font-size: clamp(8px, 5vw, 25px);
 }
 
 .pokemon__name{
-    color: #3a444d;
+    color: var(--pokemon-gris-oscuro);
     text-transform: capitalize;
 }

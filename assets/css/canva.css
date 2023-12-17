@@ -3,7 +3,7 @@
     position: absolute;
     bottom: 18%;
     left: 51%;
-    background-color: #d30a40;
+    background-color: var(--canva-rojo);
 }
 
 
