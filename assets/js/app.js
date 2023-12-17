@@ -75,7 +75,7 @@ const renderPokemon = async (pokemon) => {
 };
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-
+    myChart.destroy();
     renderPokemon(input.value.toLowerCase());
     input.value = '';
 });
